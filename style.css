@@ -111,15 +111,16 @@ add colour to each piece.
 */
 .pie:nth-of-type(1):BEFORE,
 .pie:nth-of-type(1):AFTER {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 50%, rgba(9,9,121,0) 66%, rgba(0,212,255,0.4486388305322129) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,0) 5%, rgba(220,205,118,1) 11%, rgb(246, 230, 63) 100%);
 }
 .pie:nth-of-type(2):AFTER,
 .pie:nth-of-type(2):BEFORE {
-  background: linear-gradient(90deg, rgba(2,0,36,0) 50%, rgba(12,110,48,0) 86%, rgba(14,255,0,0.4486388305322129) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,0) 5%, rgba(157, 167, 140, 0.213) 11%, rgba(157, 167, 140, 0.941) 100%);
 }
 .pie:nth-of-type(3):AFTER,
 .pie:nth-of-type(3):BEFORE {
-  background-color:red;	
+  background: linear-gradient(90deg, rgba(2,0,36,0) 5%, rgba(209,197,139,1) 11%, rgba(209,197,139,1) 100%);
+	
 }
 .pie:nth-of-type(4):AFTER,
 .pie:nth-of-type(4):BEFORE {
