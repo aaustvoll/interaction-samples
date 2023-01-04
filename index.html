@@ -1,11 +1,30 @@
 <html>
   <head>
-    <title>Page Title</title>
+    <title>Interaction Samples</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1>My Page</h1>
-    <p>Welcome to my page!</p>
+    <h1>Prompted interaction</h1>
+    <p>Courtesy of ChatGTP</p>
 
+
+
+    
+  <!-- 
+for each piece of the pie chart create one div and give it
+a data-value attribute that represents the amount (in degrees) that
+represents its total visible portion, and a data-start attribute
+that matches the amount rotation for the starting  (the cumulative value amount of all the previous pieces).
+
+ 
+-->
+<div class="pie-container">
+<div class="pie" data-start="0" data-value="30"></div>
+<div class="pie highlight" data-start="30" data-value="30"></div>
+<div class="pie" data-start="60" data-value="40"></div>
+<div class="pie big" data-start="100" data-value="260"></div>
+<div class="pie-box"><div class="piehole"></div></div>
+</div>
+    
   </body>
 </html>
