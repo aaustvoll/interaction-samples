@@ -124,7 +124,7 @@ add colour to each piece.
 }
 .pie:nth-of-type(4):AFTER,
 .pie:nth-of-type(4):BEFORE {
-  background-color:orange;	
+  background-color:rgba(176, 182, 0, 0.557);	
 }
 /*
 now rotate each piece based on their cumulative starting
@@ -222,4 +222,13 @@ the following:
   height: 170px; /* This is the height of the pie chart */
   animation: rotation 8s linear infinite;
   transform-origin: center center; /* This will make the pie chart rotate around its center */
+}
+
+.turtle {
+  position: absolute;
+  transform: translate(50%);
+  z-index: 100000;
+  transform: rotate(20deg);
+  transform: translate(80%);
+
 }
