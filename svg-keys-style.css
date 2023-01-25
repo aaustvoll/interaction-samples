@@ -1,4 +1,12 @@
 
+header {
+  position: absolute;
+  font-family: 'Rubik', sans-serif;
+  top: 52%;
+  left: 26%;
+  color: rgb(139, 139, 139);
+}
+
 svg:hover path {
   
     animation: blob 3s ease-in-out infinite;
