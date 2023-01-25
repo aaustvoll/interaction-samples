@@ -27,6 +27,7 @@ will-change: transform;
 .circle1 {
   animation: from0to360 10s linear infinite;
 
+
   fill: white;
   transform-origin: 145px 150px;
 }
