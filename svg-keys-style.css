@@ -15,7 +15,7 @@ svg:hover path {
   
   svg path {
     transition: d 4s, fill 0.6s; animation-iteration-count: 3;
-    animation: blob 3s ease-in-out infinite;
+    animation: blob 13s ease-in-out infinite;
   }
   
   svg:active {
@@ -29,7 +29,7 @@ svg:hover path {
   
   svg {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 18%;
     mix-blend-mode: multiply;
     margin: 30px auto;
