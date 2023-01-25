@@ -45,7 +45,7 @@ svg:hover path {
     height: auto;
     transition: 0.2s;
     fill: rgba(0, 204, 255, 0.619);
-    filter: blur(2px);
+    filter: blur(0px);
     
   }
   
